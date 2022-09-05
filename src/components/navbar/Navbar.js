@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './NavbarStyle.css'
 import {BiSearch} from 'react-icons/bi'
 import {BsPerson} from 'react-icons/bs'
@@ -7,8 +7,11 @@ import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'reac
 
 
 const Navbar = () => {
+    const [nav, setNav] = useState(false)
+    const handleNav = () => setNav(!nav)
+
   return (
-    <div className='navbar'>
+    <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
         <div className="logo">
             <h2>Aloha</h2>
         </div>
@@ -19,14 +22,14 @@ const Navbar = () => {
             <li>About Us</li>
         </ul>
         <div className="nav-icons">
-            <BiSearch className='icon' />
-            <BsPerson className='icon' />
+            <BiSearch className='icon' style={{marginRight: '1rem', cursor: 'pointer'}} />
+            <BsPerson className='icon' style={{cursor: 'pointer'}} />
         </div>
-        <div className="hamburger">
+        <div className="hamburger" onClick={handleNav}>
             <HiOutlineMenuAlt4 className='icon' />
         </div>
 
-        <div className="mobile-menu">
+        <div className={nav ? "mobile-menu active" : "mobile-menu"}>
             <ul className="mobile-nav">
             <li>Home</li>
             <li>Destination</li>
