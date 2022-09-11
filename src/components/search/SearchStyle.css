@@ -18,11 +18,12 @@
     align-items: center;
 }
 
-.box {
+.search .box {
     display: flex;
     max-width: 310px;
     align-items: center;
     margin: auto;
+    text-align: center;
 }
 
 .right {
@@ -79,4 +80,35 @@
 
 .search button {
     margin: .4rem;
+}
+
+@media screen and (max-width:1206px) {
+    .search .container {
+        display: grid;
+        grid-template-columns: 2fr auto;
+      
+    }
+}
+
+@media screen and (max-width: 940px) {
+        .search .container {
+            grid-template-columns: 1fr;
+        }
+
+        .search-col-2 {
+            grid-template-columns: 1fr;
+        }
+
+
+        .search .right {
+            max-width: 100%;
+        }
+
+        .search form {
+            width: 100%;
+        }
+
+        .search .date {
+            flex-direction: column;
+        }
 }
