@@ -4,7 +4,7 @@ import './index.css';
 import Destinations from './components/destinations/Destinations';
 import Search from './components/search/Search';
 import Selects from './components/selects/Selects';
-import SelectsImg from './components/SelectsImg/SelectsImg';
+import ImgCarousel from './components/caoursel/ImgCarousel';
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
     <Destinations />
     <Search />
     <Selects />
+    <ImgCarousel />
     </div>
   );
 }
