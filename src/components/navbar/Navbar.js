@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
         <div className={nav ? "logo dark" : "logo"}>
-            <h2>Euro Travel</h2>
+            <h2>Aloha</h2>
         </div>
         <ul className='nav-menu'>
             <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
