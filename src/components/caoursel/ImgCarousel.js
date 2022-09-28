@@ -10,7 +10,7 @@ import KeyWest from "../../assets/keywest.jpg";
 
 const ImgCarousel = () => {
   return (
-    <div className="container">
+    <div name='carousel' className="container">
 <Carousel className="caoursel" showArrows={true} autoPlay={true} infiniteLoop={true}>
       <div>
         <img src={BoraBora} alt="/" />

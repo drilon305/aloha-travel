@@ -33,7 +33,7 @@ h2 {
 }
 
 .container {
-  width: 1240px;
+  max-width: 1240px;
   margin: auto;
   padding: 0 1rem;
 }

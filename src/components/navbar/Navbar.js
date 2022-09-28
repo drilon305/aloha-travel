@@ -6,21 +6,24 @@ import {AiOutlineClose} from 'react-icons/ai'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
 
+import { Link } from 'react-scroll'
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav = () => setNav(!nav)
 
   return (
-    <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
+    <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
         <div className={nav ? "logo dark" : "logo"}>
-            <h2>Aloha</h2>
+            <h2>Euro Travel</h2>
         </div>
         <ul className='nav-menu'>
-            <li>Home</li>
-            <li>Destination</li>
-            <li>Contact</li>
-            <li>About Us</li>
+            <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+            <Link to='destinations' smooth={true} duration={500}><li>Destination</li></Link>
+            <Link to='carousel' smooth={true} duration={500}><li>Travel</li></Link>
+            <Link to='search' smooth={true} duration={500}><li>Book</li></Link>
+            <Link to='views' smooth={true} duration={500}><li>Views</li></Link>
         </ul>
         <div className="nav-icons">
             <BiSearch className='icon' style={{marginRight: '1rem', cursor: 'pointer'}} />
