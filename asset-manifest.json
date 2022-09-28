@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/aloha-travel/static/css/main.aae725ac.css",
+    "main.js": "/aloha-travel/static/js/main.f8bb469a.js",
+    "static/media/maldivesVideo.mp4": "/aloha-travel/static/media/maldivesVideo.4b1c6a6fb879322d6587.mp4",
+    "static/media/keywest.jpg": "/aloha-travel/static/media/keywest.1e30514942c6f50bea09.jpg",
+    "static/media/maldives2.jpg": "/aloha-travel/static/media/maldives2.ee088b6ef17100d7f85f.jpg",
+    "static/media/borabora.jpg": "/aloha-travel/static/media/borabora.e6c4841f299365fdfa10.jpg",
+    "static/media/borabora2.jpg": "/aloha-travel/static/media/borabora2.726ded1de37915f83c71.jpg",
+    "static/media/maldives.jpg": "/aloha-travel/static/media/maldives.6912181c1b1fc6c5fa6f.jpg",
+    "static/media/maldives3.jpg": "/aloha-travel/static/media/maldives3.9c3058f9a039c5a102a8.jpg",
+    "static/media/gold.png": "/aloha-travel/static/media/gold.42f7d8f40c346adfe3a7.png",
+    "index.html": "/aloha-travel/index.html",
+    "main.aae725ac.css.map": "/aloha-travel/static/css/main.aae725ac.css.map",
+    "main.f8bb469a.js.map": "/aloha-travel/static/js/main.f8bb469a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aae725ac.css",
+    "static/js/main.f8bb469a.js"
+  ]
+}
